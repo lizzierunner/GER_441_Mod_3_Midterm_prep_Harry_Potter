@@ -1,8 +1,8 @@
 const slides = [
   {
     id: 'intro',
-    title: 'Harry Potter, Gender and Sexuality',
-    subtitle: 'Fairy Tales, Film, and Gender',
+    title: 'Module 3 Midterm Study Guide',
+    subtitle: 'Harry Potter, Gender & Fairy Tales',
     layout: 'center',
     content: []
   },
@@ -10,13 +10,16 @@ const slides = [
     id: 'q1',
     title: 'Question 1: Princess as Reward',
     layout: 'standard',
+    badge: 'Critical Concept',
     content: [
       {
         type: 'quiz',
         quizItems: [
           {
             question: 'How does Lin\'s idea of the princess as a "reward" apply to Cinderella?',
-            answer: 'Lin\'s argument fits especially well with Grimm Cinderella and Disney\'s 1950 version, where Cinderella\'s suffering is rewarded through marriage and recognition. The 2015 version adds emotional depth, but the story still resolves through being chosen, reinforcing the princess-as-reward structure.'
+            answer: 'Lin\'s argument fits especially well with Grimm Cinderella and Disney\'s 1950 version, where Cinderella\'s suffering is rewarded through marriage and recognition. The 2015 version adds emotional depth, but the story still resolves through being chosen, reinforcing the princess-as-reward structure.',
+            keyTerms: ['princess-as-reward', 'marriage as resolution', 'passive suffering', 'recognition'],
+            examTip: 'Compare all three versions: Grimm, 1950 Disney, and 2015 Live Action'
           }
         ]
       }
@@ -26,13 +29,16 @@ const slides = [
     id: 'q2',
     title: 'Question 2: Archetype vs. Stereotype',
     layout: 'standard',
+    badge: 'Key Definition',
     content: [
       {
         type: 'quiz',
         quizItems: [
           {
             question: 'When does an archetype become a stereotype in Disney\'s Cinderella?',
-            answer: 'According to Lin, an archetype becomes a stereotype when it is shaped more by cultural expectations than narrative needs. In Disney\'s Cinderella, kindness, beauty, and patience become predictable requirements, which limits the character\'s complexity.'
+            answer: 'According to Lin, an archetype becomes a stereotype when it is shaped more by cultural expectations than narrative needs. In Disney\'s Cinderella, kindness, beauty, and patience become predictable requirements, which limits the character\'s complexity.',
+            keyTerms: ['archetype', 'stereotype', 'cultural expectations', 'narrative needs', 'character complexity'],
+            examTip: 'Know the difference: Archetypes = universal patterns; Stereotypes = rigid cultural expectations'
           }
         ]
       }
@@ -58,13 +64,16 @@ const slides = [
     id: 'q4',
     title: 'Question 4: Rescue Scenes',
     layout: 'standard',
+    badge: 'Character Agency',
     content: [
       {
         type: 'quiz',
         quizItems: [
           {
             question: 'How do rescue scenes differ between Cinderella and Harry Potter?',
-            answer: 'In Cinderella, rescue happens through recognition and marriage with little direct action from Cinderella. In Harry Potter, survival depends on teamwork and problem-solving, moving away from the passive rescue model.'
+            answer: 'In Cinderella, rescue happens through recognition and marriage with little direct action from Cinderella. In Harry Potter, survival depends on teamwork and problem-solving, moving away from the passive rescue model.',
+            keyTerms: ['passive rescue', 'active agency', 'teamwork', 'recognition vs. action'],
+            examTip: 'Contrast passive waiting vs. active problem-solving in rescue scenarios'
           }
         ]
       }
@@ -90,13 +99,16 @@ const slides = [
     id: 'q6',
     title: 'Question 6: Identity & Belonging',
     layout: 'standard',
+    badge: 'Thematic Analysis',
     content: [
       {
         type: 'quiz',
         quizItems: [
           {
             question: 'How does the movie show Harry trying to figure out who he is, and how does Hogwarts help him feel he belongs?',
-            answer: 'The film shows Harry\'s identity crisis through his life with the Dursleys, where he feels unwanted and ordinary. Hogwarts transforms this by revealing his magical heritage and famous past. Through the Sorting Hat ceremony, friendships with Ron and Hermione, and discovering his parents\' legacy, Harry finds belonging in a community that values him. The school becomes the home he never had, where his identity as "the boy who lived" evolves into simply being Harry—a brave, loyal friend who belongs to Gryffindor.'
+            answer: 'The film shows Harry\'s identity crisis through his life with the Dursleys, where he feels unwanted and ordinary. Hogwarts transforms this by revealing his magical heritage and famous past. Through the Sorting Hat ceremony, friendships with Ron and Hermione, and discovering his parents\' legacy, Harry finds belonging in a community that values him. The school becomes the home he never had, where his identity as "the boy who lived" evolves into simply being Harry—a brave, loyal friend who belongs to Gryffindor.',
+            keyTerms: ['identity crisis', 'belonging', 'chosen family', 'Sorting Hat', 'transformation', 'home'],
+            examTip: 'Trace Harry\'s journey from outcast to belonging - cite specific scenes'
           }
         ]
       }
@@ -106,13 +118,16 @@ const slides = [
     id: 'q7',
     title: 'Question 7: Types of Power',
     layout: 'standard',
+    badge: 'Power Dynamics',
     content: [
       {
         type: 'quiz',
         quizItems: [
           {
             question: 'How do characters like Dumbledore, Snape, and Voldemort show different types of power in the movie?',
-            answer: 'The film presents three distinct forms of power: Dumbledore embodies wisdom and benevolent authority, using his power to guide and protect rather than control. His strength lies in trust and restraint. Voldemort represents raw, destructive power driven by fear and the desire for immortality—power without moral boundaries. Snape demonstrates the power of deception and complexity, operating in the shadows with ambiguous loyalties. While Voldemort seeks power through domination and Dumbledore through compassion, Snape\'s power comes from secrecy and the ability to serve multiple masters, showing that power can be subtle and layered.'
+            answer: 'The film presents three distinct forms of power: Dumbledore embodies wisdom and benevolent authority, using his power to guide and protect rather than control. His strength lies in trust and restraint. Voldemort represents raw, destructive power driven by fear and the desire for immortality—power without moral boundaries. Snape demonstrates the power of deception and complexity, operating in the shadows with ambiguous loyalties. While Voldemort seeks power through domination and Dumbledore through compassion, Snape\'s power comes from secrecy and the ability to serve multiple masters, showing that power can be subtle and layered.',
+            keyTerms: ['benevolent power', 'destructive power', 'hidden power', 'wisdom', 'domination', 'moral boundaries'],
+            examTip: 'Create a three-column comparison: Dumbledore/Voldemort/Snape and their power types'
           }
         ]
       }
@@ -122,14 +137,37 @@ const slides = [
     id: 'q8',
     title: 'Question 8: Harry as Classic Hero',
     layout: 'standard',
+    badge: "Hero's Journey",
     content: [
       {
         type: 'quiz',
         quizItems: [
           {
             question: 'How is Harry like a classic hero from a fairy tale?',
-            answer: 'Harry follows the archetypal hero\'s journey found in classic fairy tales: he begins as an orphan in humble, oppressive circumstances (like Cinderella or Snow White), receives a magical call to adventure (the Hogwarts letter), gains supernatural aid (his wand, Hagrid\'s guidance), faces tests and trials (the challenges protecting the Stone), and ultimately confronts the villain to restore balance. Like traditional fairy tale heroes, Harry possesses inherent special qualities (his magical ability, fame, and the protection of his mother\'s love) that mark him as "chosen." However, unlike passive fairy tale princesses, Harry actively pursues his destiny, making him a hero in the classic adventurer tradition rather than the romantic reward structure.'
+            answer: 'Harry follows the archetypal hero\'s journey found in classic fairy tales: he begins as an orphan in humble, oppressive circumstances (like Cinderella or Snow White), receives a magical call to adventure (the Hogwarts letter), gains supernatural aid (his wand, Hagrid\'s guidance), faces tests and trials (the challenges protecting the Stone), and ultimately confronts the villain to restore balance. Like traditional fairy tale heroes, Harry possesses inherent special qualities (his magical ability, fame, and the protection of his mother\'s love) that mark him as "chosen." However, unlike passive fairy tale princesses, Harry actively pursues his destiny, making him a hero in the classic adventurer tradition rather than the romantic reward structure.',
+            keyTerms: ['hero\'s journey', 'orphan', 'call to adventure', 'supernatural aid', 'trials', 'chosen one'],
+            examTip: 'Map Harry onto the classic hero\'s journey stages - compare/contrast with passive princesses'
           }
+        ]
+      }
+    ]
+  },
+  {
+    id: 'study-summary',
+    title: '📚 Quick Study Summary',
+    layout: 'summary',
+    content: [
+      {
+        type: 'keypoints',
+        points: [
+          'Lin\'s "princess as reward" critique applies to traditional Cinderella versions',
+          'Archetypes become stereotypes when shaped by culture vs. narrative',
+          'HP shifts from romance-centered to friendship/belonging-centered narrative',
+          'Rescue scenes: passive recognition (Cinderella) vs. active teamwork (HP)',
+          'Hermione exemplifies strongest female agency',
+          'Identity & belonging > romantic resolution in HP',
+          'Three power types: benevolent (Dumbledore), destructive (Voldemort), hidden (Snape)',
+          'Harry follows hero\'s journey but actively pursues destiny'
         ]
       }
     ]
@@ -137,10 +175,21 @@ const slides = [
   {
     id: 'conclusion',
     title: 'Mischief Managed',
+    subtitle: 'You\'re Ready for the Midterm!',
     layout: 'center',
     content: []
   }
 ];
+
+// ===================================
+// STUDY MODE SYSTEM
+// ===================================
+
+let studyMode = 'read'; // 'read', 'flashcard', 'quiz'
+let currentFlashcardIndex = 0;
+let currentQuizIndex = 0;
+let quizScore = 0;
+let flashcardFlipped = false;
 
 let currentSlide = 0;
 const container = document.getElementById('slide-container');
@@ -165,12 +214,413 @@ function init() {
 
     renderSlide(currentSlide);
     setupControls();
+    setupStudyModes();
     setupBackground();
     setupCursor();
     setupParallax();
     setupSpectacularEffects();
     renderPrintContent();
     lucide.createIcons();
+}
+
+// --- Study Mode Setup ---
+
+function setupStudyModes() {
+    const readBtn = document.getElementById('read-mode-btn');
+    const flashcardBtn = document.getElementById('flashcard-mode-btn');
+    const quizBtn = document.getElementById('quiz-mode-btn');
+    const modeIndicator = document.getElementById('mode-indicator');
+    
+    if (readBtn) {
+        readBtn.addEventListener('click', () => {
+            switchStudyMode('read');
+        });
+    }
+    if (flashcardBtn) {
+        flashcardBtn.addEventListener('click', () => {
+            switchStudyMode('flashcard');
+        });
+    }
+    if (quizBtn) {
+        quizBtn.addEventListener('click', () => {
+            switchStudyMode('quiz');
+        });
+    }
+}
+
+function switchStudyMode(mode) {
+    studyMode = mode;
+    
+    // Update button styles
+    const readBtn = document.getElementById('read-mode-btn');
+    const flashcardBtn = document.getElementById('flashcard-mode-btn');
+    const quizBtn = document.getElementById('quiz-mode-btn');
+    const modeIndicator = document.getElementById('mode-indicator');
+    
+    // Reset all buttons
+    [readBtn, flashcardBtn, quizBtn].forEach(btn => {
+        if (btn) {
+            btn.classList.remove('bg-yellow-900/40', 'border-yellow-600', 'text-yellow-400');
+            btn.classList.add('bg-transparent', 'border-yellow-700/30', 'text-yellow-500/70');
+        }
+    });
+    
+    // Highlight active button
+    let activeBtn, modeText;
+    if (mode === 'read') {
+        activeBtn = readBtn;
+        modeText = 'Reading Mode';
+    } else if (mode === 'flashcard') {
+        activeBtn = flashcardBtn;
+        modeText = 'Flashcard Mode';
+        currentFlashcardIndex = 0;
+    } else if (mode === 'quiz') {
+        activeBtn = quizBtn;
+        modeText = 'Quiz Mode';
+        currentQuizIndex = 0;
+        quizScore = 0;
+    }
+    
+    if (activeBtn) {
+        activeBtn.classList.remove('bg-transparent', 'border-yellow-700/30', 'text-yellow-500/70');
+        activeBtn.classList.add('bg-yellow-900/40', 'border-yellow-600', 'text-yellow-400');
+    }
+    
+    if (modeIndicator) {
+        modeIndicator.textContent = modeText;
+    }
+    
+    // Render appropriate content
+    if (mode === 'read') {
+        renderSlide(currentSlide);
+    } else if (mode === 'flashcard') {
+        renderFlashcard(currentFlashcardIndex);
+    } else if (mode === 'quiz') {
+        renderQuiz(currentQuizIndex);
+    }
+    
+    lucide.createIcons();
+}
+
+function renderFlashcard(index) {
+    if (typeof flashcards === 'undefined' || !flashcards[index]) {
+        container.innerHTML = `
+            <div class="text-center text-yellow-400 font-cinzel">
+                <p>Flashcard data not loaded. Please refresh the page.</p>
+            </div>
+        `;
+        return;
+    }
+    
+    const card = flashcards[index];
+    flashcardFlipped = false;
+    
+    const difficultyColor = {
+        easy: 'text-green-400 border-green-600',
+        medium: 'text-yellow-400 border-yellow-600',
+        hard: 'text-red-400 border-red-600'
+    };
+    
+    container.innerHTML = `
+        <div class="w-full max-w-4xl flex flex-col items-center slide-enter slide-enter-active">
+            <div class="mb-6 flex items-center gap-4">
+                <span class="px-3 py-1 bg-purple-900/30 border border-purple-600/50 rounded-full text-sm font-cinzel text-purple-300">
+                    ${card.category}
+                </span>
+                <span class="px-3 py-1 bg-black/40 border ${difficultyColor[card.difficulty]} rounded-full text-sm font-cinzel ${difficultyColor[card.difficulty]}">
+                    ${card.difficulty.toUpperCase()}
+                </span>
+            </div>
+            
+            <div id="flashcard" class="flashcard-container relative w-full max-w-2xl h-96 cursor-pointer perspective-1000" onclick="flipFlashcard()">
+                <div class="flashcard-inner absolute inset-0 transition-transform duration-700 transform-style-3d">
+                    <!-- Front -->
+                    <div class="flashcard-front absolute inset-0 backface-hidden bg-gradient-to-br from-yellow-900/30 to-purple-900/30 border-2 border-yellow-600/50 rounded-xl p-12 flex items-center justify-center">
+                        <div class="text-center">
+                            <div class="text-yellow-400 mb-4 opacity-60">
+                                <i data-lucide="help-circle" class="w-12 h-12 mx-auto"></i>
+                            </div>
+                            <h2 class="text-3xl md:text-4xl font-cinzel text-yellow-300 leading-relaxed">
+                                ${card.front}
+                            </h2>
+                            <div class="mt-8 text-purple-400 text-sm font-crimson italic">
+                                Click to reveal answer
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Back -->
+                    <div class="flashcard-back absolute inset-0 backface-hidden bg-gradient-to-br from-green-900/30 to-blue-900/30 border-2 border-green-600/50 rounded-xl p-12 flex items-center justify-center rotate-y-180">
+                        <div class="text-center">
+                            <div class="text-green-400 mb-4 opacity-60">
+                                <i data-lucide="check-circle" class="w-12 h-12 mx-auto"></i>
+                            </div>
+                            <p class="text-2xl md:text-3xl font-crimson text-green-200 leading-relaxed">
+                                ${card.back}
+                            </p>
+                            <div class="mt-8 text-blue-400 text-sm font-crimson italic">
+                                Click to flip back
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="mt-8 flex gap-4">
+                <button onclick="prevFlashcard()" class="px-6 py-3 bg-black/60 border-2 border-yellow-700/50 text-yellow-400 rounded-lg hover:bg-yellow-900/20 font-cinzel flex items-center gap-2">
+                    <i data-lucide="chevron-left" class="w-5 h-5"></i>
+                    Previous
+                </button>
+                <button onclick="nextFlashcard()" class="px-6 py-3 bg-black/60 border-2 border-yellow-700/50 text-yellow-400 rounded-lg hover:bg-yellow-900/20 font-cinzel flex items-center gap-2">
+                    Next
+                    <i data-lucide="chevron-right" class="w-5 h-5"></i>
+                </button>
+            </div>
+            
+            <div class="mt-4 text-yellow-500/70 font-cinzel text-sm">
+                Card ${index + 1} of ${flashcards.length}
+            </div>
+        </div>
+    `;
+    
+    // Update progress
+    pageIndicator.textContent = `Flashcard ${index + 1} of ${flashcards.length}`;
+    const progress = ((index + 1) / flashcards.length) * 100;
+    progressBar.style.width = `${progress}%`;
+    
+    lucide.createIcons();
+}
+
+function flipFlashcard() {
+    const cardInner = document.querySelector('.flashcard-inner');
+    if (cardInner) {
+        flashcardFlipped = !flashcardFlipped;
+        if (flashcardFlipped) {
+            cardInner.classList.add('rotate-y-180');
+        } else {
+            cardInner.classList.remove('rotate-y-180');
+        }
+    }
+}
+
+function nextFlashcard() {
+    if (currentFlashcardIndex < flashcards.length - 1) {
+        currentFlashcardIndex++;
+        renderFlashcard(currentFlashcardIndex);
+    }
+}
+
+function prevFlashcard() {
+    if (currentFlashcardIndex > 0) {
+        currentFlashcardIndex--;
+        renderFlashcard(currentFlashcardIndex);
+    }
+}
+
+function renderQuiz(index) {
+    if (typeof quizQuestions === 'undefined' || !quizQuestions[index]) {
+        container.innerHTML = `
+            <div class="text-center text-yellow-400 font-cinzel">
+                <p>Quiz data not loaded. Please refresh the page.</p>
+            </div>
+        `;
+        return;
+    }
+    
+    const q = quizQuestions[index];
+    
+    container.innerHTML = `
+        <div class="w-full max-w-4xl flex flex-col items-center slide-enter slide-enter-active">
+            <div class="mb-6 flex items-center gap-4">
+                <span class="px-3 py-1 bg-blue-900/30 border border-blue-600/50 rounded-full text-sm font-cinzel text-blue-300">
+                    ${q.category}
+                </span>
+                <span class="px-3 py-1 bg-purple-900/30 border border-purple-600/50 rounded-full text-sm font-cinzel text-purple-300">
+                    Score: ${quizScore}/${index}
+                </span>
+            </div>
+            
+            <div class="w-full bg-black/40 border-2 border-yellow-900/30 rounded-xl p-8 mb-6">
+                <h3 class="text-2xl md:text-3xl font-cinzel text-yellow-400 mb-8 flex items-start gap-4">
+                    <span class="text-yellow-600 shrink-0">${index + 1}.</span>
+                    ${q.question}
+                </h3>
+                
+                <div class="space-y-4">
+                    ${q.options.map((option, i) => `
+                        <button onclick="selectQuizAnswer(${i})" 
+                                class="quiz-option w-full text-left p-4 bg-gradient-to-r from-gray-900/60 to-gray-800/60 border-2 border-yellow-700/30 rounded-lg hover:border-yellow-500/60 hover:bg-yellow-900/20 transition-all font-crimson text-lg text-yellow-100 flex items-center gap-4">
+                            <span class="flex-shrink-0 w-8 h-8 rounded-full bg-yellow-900/40 border border-yellow-600/50 flex items-center justify-center text-yellow-400 font-cinzel text-sm">
+                                ${String.fromCharCode(65 + i)}
+                            </span>
+                            <span>${option}</span>
+                        </button>
+                    `).join('')}
+                </div>
+                
+                <div id="quiz-feedback" class="mt-6 p-4 rounded-lg hidden">
+                    <!-- Feedback will be inserted here -->
+                </div>
+            </div>
+            
+            <div class="mt-4 text-yellow-500/70 font-cinzel text-sm">
+                Question ${index + 1} of ${quizQuestions.length}
+            </div>
+        </div>
+    `;
+    
+    // Update progress
+    pageIndicator.textContent = `Quiz ${index + 1} of ${quizQuestions.length}`;
+    const progress = ((index + 1) / quizQuestions.length) * 100;
+    progressBar.style.width = `${progress}%`;
+    
+    lucide.createIcons();
+}
+
+function selectQuizAnswer(selectedIndex) {
+    const q = quizQuestions[currentQuizIndex];
+    const feedback = document.getElementById('quiz-feedback');
+    const options = document.querySelectorAll('.quiz-option');
+    
+    // Disable all options
+    options.forEach(opt => opt.onclick = null);
+    
+    // Check if correct
+    const isCorrect = selectedIndex === q.correct;
+    if (isCorrect) {
+        quizScore++;
+        // Award house points
+        awardPoints(10);
+    }
+    
+    // Show feedback
+    if (feedback) {
+        feedback.className = `mt-6 p-6 rounded-lg border-2 ${isCorrect ? 'bg-green-900/20 border-green-600/50' : 'bg-red-900/20 border-red-600/50'}`;
+        feedback.innerHTML = `
+            <div class="flex items-start gap-4">
+                <i data-lucide="${isCorrect ? 'check-circle' : 'x-circle'}" class="w-6 h-6 ${isCorrect ? 'text-green-400' : 'text-red-400'} shrink-0 mt-1"></i>
+                <div>
+                    <div class="font-cinzel text-lg ${isCorrect ? 'text-green-300' : 'text-red-300'} mb-2">
+                        ${isCorrect ? '✨ Correct! Well done!' : '❌ Not quite right.'}
+                    </div>
+                    <p class="font-crimson text-base ${isCorrect ? 'text-green-100' : 'text-red-100'} leading-relaxed">
+                        ${q.explanation}
+                    </p>
+                    <button onclick="nextQuiz()" class="mt-4 px-6 py-2 bg-yellow-900/40 border border-yellow-600 text-yellow-400 rounded font-cinzel hover:bg-yellow-900/60 transition-all">
+                        Next Question
+                        <i data-lucide="arrow-right" class="w-4 h-4 inline ml-2"></i>
+                    </button>
+                </div>
+            </div>
+        `;
+        feedback.classList.remove('hidden');
+    }
+    
+    // Highlight correct and incorrect answers
+    options.forEach((opt, i) => {
+        if (i === q.correct) {
+            opt.classList.add('border-green-500', 'bg-green-900/30');
+        } else if (i === selectedIndex) {
+            opt.classList.add('border-red-500', 'bg-red-900/30');
+        }
+    });
+    
+    lucide.createIcons();
+}
+
+function nextQuiz() {
+    if (currentQuizIndex < quizQuestions.length - 1) {
+        currentQuizIndex++;
+        renderQuiz(currentQuizIndex);
+    } else {
+        // Show final score
+        showQuizResults();
+    }
+}
+
+function showQuizResults() {
+    const percentage = Math.round((quizScore / quizQuestions.length) * 100);
+    let message, house;
+    
+    if (percentage >= 90) {
+        message = 'Outstanding! You\'ve mastered the material!';
+        house = 'Gryffindor';
+    } else if (percentage >= 75) {
+        message = 'Excellent work! You know your stuff!';
+        house = 'Ravenclaw';
+    } else if (percentage >= 60) {
+        message = 'Good effort! Keep studying!';
+        house = 'Hufflepuff';
+    } else {
+        message = 'Keep practicing! You\'ll get there!';
+        house = 'Slytherin';
+    }
+    
+    container.innerHTML = `
+        <div class="w-full max-w-4xl flex flex-col items-center text-center slide-enter slide-enter-active">
+            <div class="mb-8">
+                <i data-lucide="trophy" class="w-24 h-24 text-yellow-400 mx-auto mb-4"></i>
+            </div>
+            
+            <h1 class="text-5xl md:text-7xl font-cinzel text-yellow-400 mb-6">
+                Quiz Complete!
+            </h1>
+            
+            <div class="w-full max-w-2xl bg-gradient-to-br from-yellow-900/30 to-purple-900/30 border-2 border-yellow-600/50 rounded-xl p-12 mb-8">
+                <div class="text-8xl font-bold text-yellow-300 mb-4">
+                    ${quizScore}/${quizQuestions.length}
+                </div>
+                <div class="text-3xl text-yellow-100 mb-2">
+                    ${percentage}%
+                </div>
+                <div class="text-xl text-purple-300 font-crimson italic">
+                    ${message}
+                </div>
+                <div class="mt-6 text-2xl font-cinzel text-yellow-400">
+                    ${house} would be proud! 🏆
+                </div>
+            </div>
+            
+            <div class="flex gap-4">
+                <button onclick="resetQuiz()" class="px-8 py-4 bg-yellow-900/40 border-2 border-yellow-600 text-yellow-400 rounded-lg hover:bg-yellow-900/60 font-cinzel text-lg">
+                    <i data-lucide="rotate-ccw" class="w-5 h-5 inline mr-2"></i>
+                    Retake Quiz
+                </button>
+                <button onclick="switchStudyMode('read')" class="px-8 py-4 bg-purple-900/40 border-2 border-purple-600 text-purple-400 rounded-lg hover:bg-purple-900/60 font-cinzel text-lg">
+                    <i data-lucide="book-open" class="w-5 h-5 inline mr-2"></i>
+                    Back to Reading
+                </button>
+            </div>
+        </div>
+    `;
+    
+    lucide.createIcons();
+}
+
+function resetQuiz() {
+    currentQuizIndex = 0;
+    quizScore = 0;
+    renderQuiz(0);
+}
+
+// Award house points
+function awardPoints(points) {
+    const housePoints = document.getElementById('house-points');
+    const pointsValue = document.getElementById('points-value');
+    
+    if (housePoints && pointsValue) {
+        const currentPoints = parseInt(pointsValue.textContent) || 0;
+        pointsValue.textContent = currentPoints + points;
+        
+        // Show points display
+        housePoints.style.opacity = '1';
+        
+        // Add animation
+        pointsValue.classList.add('scale-125');
+        setTimeout(() => {
+            pointsValue.classList.remove('scale-125');
+        }, 300);
+    }
 }
 
 // --- Rendering ---
@@ -224,10 +674,12 @@ function renderSlide(index) {
     } else if (isConclusion) {
          contentHtml = `
             <div class="flex flex-col items-center justify-center text-center slide-enter slide-enter-active h-full">
-                <div class="text-xl md:text-2xl font-cinzel text-yellow-600/80 mb-8 tracking-widest uppercase animate-fade-in">I solemnly swear I am up to no good</div>
+                <div class="text-xl md:text-2xl font-cinzel text-yellow-600/80 mb-4 tracking-widest uppercase animate-fade-in">I solemnly swear I am up to no good</div>
+                <div class="text-base md:text-lg font-crimson text-purple-400/70 mb-8 italic">You've mastered the Module 3 material!</div>
                 <h1 id="mischief-title" class="text-7xl md:text-[12rem] lg:text-[14rem] font-bold font-cinzel text-transparent bg-clip-text bg-gradient-to-b from-[#d4af37] via-[#f4d03f] to-[#d4af37] drop-shadow-[0_0_30px_rgba(212,175,55,0.6)] tracking-widest uppercase italic animate-glow-pulse" style="font-family: 'Cinzel Decorative', serif; text-shadow: 0 0 40px rgba(212,175,55,0.8), 0 0 80px rgba(212,175,55,0.4), 0 0 120px rgba(212,175,55,0.2);">
                     ${slide.title}
                 </h1>
+                ${slide.subtitle ? `<div class="text-xl md:text-2xl font-cinzel text-green-400/80 mt-4 tracking-wider">${slide.subtitle}</div>` : ''}
                 <div class="h-1 bg-gradient-to-r from-transparent via-yellow-600 to-transparent w-3/4 mx-auto mt-8 animate-pulse"></div>
                 <button id="mischief-managed-btn" class="mt-16 px-12 py-5 bg-transparent border-2 border-yellow-600/50 text-yellow-600/80 font-cinzel text-lg rounded-lg hover:bg-yellow-600/10 hover:border-yellow-500 hover:text-yellow-500 transition-all duration-500 hover:shadow-[0_0_30px_rgba(212,175,55,0.5)] hover:scale-105">
                     ✨ Tap to Reveal Magic ✨
@@ -248,22 +700,73 @@ function renderSlide(index) {
                             </h3>
                             <div class="pl-0 md:pl-12 relative z-10">
                                 <div class="relative p-6 bg-[#1a1a1a]/80 border-l-4 border-green-600 rounded-r-lg shadow-inner">
-                                    <p class="text-xl md:text-2xl font-crimson text-yellow-100/90 leading-relaxed">
+                                    <p class="text-xl md:text-2xl font-crimson text-yellow-100/90 leading-relaxed mb-4">
                                         ${q.answer}
                                     </p>
+                                    ${q.keyTerms ? `
+                                        <div class="mt-6 pt-4 border-t border-yellow-900/30">
+                                            <div class="flex items-center gap-2 mb-3">
+                                                <i data-lucide="book-marked" class="w-5 h-5 text-amber-400"></i>
+                                                <span class="text-sm font-cinzel text-amber-400 uppercase tracking-wider">Key Terms:</span>
+                                            </div>
+                                            <div class="flex flex-wrap gap-2">
+                                                ${q.keyTerms.map(term => `
+                                                    <span class="px-3 py-1 bg-amber-900/30 border border-amber-700/50 rounded-full text-sm text-amber-200 font-crimson">
+                                                        ${term}
+                                                    </span>
+                                                `).join('')}
+                                            </div>
+                                        </div>
+                                    ` : ''}
+                                    ${q.examTip ? `
+                                        <div class="mt-4 pt-4 border-t border-purple-900/30">
+                                            <div class="flex items-start gap-2">
+                                                <i data-lucide="lightbulb" class="w-5 h-5 text-purple-400 mt-1 shrink-0"></i>
+                                                <div>
+                                                    <span class="text-sm font-cinzel text-purple-400 uppercase tracking-wider">Exam Tip:</span>
+                                                    <p class="text-base text-purple-200 mt-1 font-crimson italic">${q.examTip}</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    ` : ''}
                                 </div>
                             </div>
                         </div>
                     `;
                 });
+            } else if (item.type === 'keypoints' && item.points) {
+                innerContent += `
+                    <div class="bg-gradient-to-br from-amber-900/20 to-purple-900/20 border-2 border-yellow-700/50 p-8 rounded-lg backdrop-blur-sm w-full">
+                        <div class="flex items-center gap-3 mb-6">
+                            <i data-lucide="scroll" class="w-8 h-8 text-yellow-400"></i>
+                            <h3 class="text-2xl font-cinzel text-yellow-400 uppercase tracking-wider">Essential Concepts</h3>
+                        </div>
+                        <div class="grid md:grid-cols-2 gap-4">
+                            ${item.points.map((point, i) => `
+                                <div class="flex items-start gap-3 p-4 bg-black/40 rounded-lg border-l-4 border-amber-600">
+                                    <span class="text-amber-400 font-bold font-cinzel mt-1">${i + 1}.</span>
+                                    <p class="text-lg text-yellow-100 font-crimson leading-relaxed">${point}</p>
+                                </div>
+                            `).join('')}
+                        </div>
+                    </div>
+                `;
             }
         });
 
         contentHtml = `
             <div class="w-full max-w-6xl flex flex-col items-center text-center slide-enter slide-enter-active">
-                <h1 class="text-4xl md:text-6xl font-bold mb-4 font-cinzel text-yellow-500 drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)] tracking-wider">
-                    ${slide.title}
-                </h1>
+                <div class="flex flex-col items-center mb-4">
+                    ${slide.badge ? `
+                        <div class="inline-flex items-center gap-2 px-4 py-2 bg-purple-900/30 border border-purple-600/50 rounded-full mb-4">
+                            <i data-lucide="star" class="w-4 h-4 text-purple-400"></i>
+                            <span class="text-sm font-cinzel text-purple-300 uppercase tracking-wider">${slide.badge}</span>
+                        </div>
+                    ` : ''}
+                    <h1 class="text-4xl md:text-6xl font-bold font-cinzel text-yellow-500 drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)] tracking-wider">
+                        ${slide.title}
+                    </h1>
+                </div>
                  ${slide.subtitle ? `<h2 class="text-2xl md:text-3xl font-cinzel text-yellow-200/80 italic border-b border-yellow-500/30 pb-4 inline-block mb-8">${slide.subtitle}</h2>` : ''}
                  
                  <div class="w-full mt-8">
@@ -429,7 +932,7 @@ function setupControls() {
     });
 
     window.addEventListener('keydown', (e) => {
-        if (e.key === 'ArrowRight' || e.key === 'Space') {
+        if (e.key === 'ArrowRight' || e.key === ' ') {
             if (currentSlide < slides.length - 1) {
                 currentSlide++;
                 renderSlide(currentSlide);
@@ -439,8 +942,44 @@ function setupControls() {
                 currentSlide--;
                 renderSlide(currentSlide);
             }
+        } else if (e.key === '?') {
+            toggleHelp();
         }
     });
+
+    // Help button
+    const helpBtn = document.getElementById('help-btn');
+    const closeHelpBtn = document.getElementById('close-help');
+    const helpOverlay = document.getElementById('help-overlay');
+    
+    if (helpBtn) {
+        helpBtn.addEventListener('click', toggleHelp);
+    }
+    if (closeHelpBtn) {
+        closeHelpBtn.addEventListener('click', toggleHelp);
+    }
+    if (helpOverlay) {
+        helpOverlay.addEventListener('click', (e) => {
+            if (e.target === helpOverlay) {
+                toggleHelp();
+            }
+        });
+    }
+}
+
+function toggleHelp() {
+    const helpOverlay = document.getElementById('help-overlay');
+    if (helpOverlay) {
+        const isVisible = helpOverlay.style.opacity === '1';
+        if (isVisible) {
+            helpOverlay.style.opacity = '0';
+            helpOverlay.style.pointerEvents = 'none';
+        } else {
+            helpOverlay.style.opacity = '1';
+            helpOverlay.style.pointerEvents = 'auto';
+        }
+        lucide.createIcons();
+    }
 }
 
 function shareLink() {

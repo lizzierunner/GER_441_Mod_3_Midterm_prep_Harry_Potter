@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Harry Potter & Gender Themes - Module 3</title>
+    <title>Module 3 Midterm Study Guide - Harry Potter & Gender Themes</title>
     
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -108,12 +108,31 @@
     
     <!-- Share/Print Button -->
     <div class="fixed top-6 left-6 z-[60] flex flex-col gap-4">
+         <div class="px-4 py-2 bg-purple-900/60 border-2 border-purple-500/50 rounded-lg backdrop-blur-sm">
+            <div class="flex items-center gap-2">
+                <i data-lucide="graduation-cap" class="w-5 h-5 text-purple-300"></i>
+                <span class="text-purple-200 font-cinzel text-sm uppercase tracking-wider">Study Mode</span>
+            </div>
+         </div>
          <button onclick="shareLink()" class="w-12 h-12 rounded-full flex items-center justify-center bg-black/60 border-2 border-yellow-700/50 text-yellow-500 hover:border-yellow-400 hover:text-yellow-200 hover:bg-yellow-900/20 hover:shadow-[0_0_20px_rgba(234,179,8,0.4)] transition-all cursor-pointer backdrop-blur-sm" title="Share Link">
             <i data-lucide="share-2" class="w-5 h-5"></i>
          </button>
          <button onclick="window.print()" class="w-12 h-12 rounded-full flex items-center justify-center bg-black/60 border-2 border-yellow-700/50 text-yellow-500 hover:border-yellow-400 hover:text-yellow-200 hover:bg-yellow-900/20 hover:shadow-[0_0_20px_rgba(234,179,8,0.4)] transition-all cursor-pointer backdrop-blur-sm" title="Print / PDF">
             <i data-lucide="file-text" class="w-5 h-5"></i>
          </button>
+    </div>
+    
+    <!-- Study Mode Selector -->
+    <div class="fixed top-6 left-1/2 transform -translate-x-1/2 z-[60] bg-black/80 border-2 border-yellow-700/50 rounded-lg p-2 backdrop-blur-sm flex gap-2">
+        <button id="read-mode-btn" class="px-4 py-2 bg-yellow-900/40 border border-yellow-600 text-yellow-400 rounded font-cinzel text-sm hover:bg-yellow-900/60 transition-all">
+            <i data-lucide="book-open" class="w-4 h-4 inline mr-2"></i>Read
+        </button>
+        <button id="flashcard-mode-btn" class="px-4 py-2 bg-transparent border border-yellow-700/30 text-yellow-500/70 rounded font-cinzel text-sm hover:bg-yellow-900/20 transition-all">
+            <i data-lucide="layers" class="w-4 h-4 inline mr-2"></i>Flashcards
+        </button>
+        <button id="quiz-mode-btn" class="px-4 py-2 bg-transparent border border-yellow-700/30 text-yellow-500/70 rounded font-cinzel text-sm hover:bg-yellow-900/20 transition-all">
+            <i data-lucide="brain" class="w-4 h-4 inline mr-2"></i>Quiz
+        </button>
     </div>
     
     <!-- House Points Display -->
@@ -129,6 +148,10 @@
     
     <!-- Magic Controls -->
     <div class="fixed bottom-6 right-6 z-[60] flex flex-col gap-3">
+        <button id="help-btn" class="px-4 py-2 bg-black/60 border-2 border-purple-700/50 text-purple-400 rounded-lg hover:bg-purple-900/20 hover:border-purple-400 transition-all font-cinzel backdrop-blur-sm flex items-center gap-2 text-sm" title="Keyboard Shortcuts">
+            <i data-lucide="keyboard" class="w-4 h-4"></i>
+            <span>Help</span>
+        </button>
         <button id="lumos-btn" class="px-4 py-2 bg-black/60 border-2 border-yellow-700/50 text-yellow-500 rounded-lg hover:bg-yellow-900/20 hover:border-yellow-400 transition-all font-cinzel backdrop-blur-sm flex items-center gap-2 text-sm">
             <i data-lucide="lightbulb" class="w-4 h-4"></i>
             <span>Lumos</span>
@@ -137,6 +160,46 @@
             <i data-lucide="sparkles" class="w-4 h-4"></i>
             <span>Patronus</span>
         </button>
+    </div>
+
+    <!-- Help Overlay -->
+    <div id="help-overlay" class="fixed inset-0 bg-black/90 backdrop-blur-sm z-[9999] flex items-center justify-center opacity-0 pointer-events-none transition-opacity duration-300">
+        <div class="bg-gradient-to-br from-gray-900 to-black border-2 border-yellow-600/50 rounded-lg p-8 max-w-2xl mx-4 relative">
+            <button id="close-help" class="absolute top-4 right-4 text-yellow-500 hover:text-yellow-300 transition-colors" aria-label="Close help" title="Close">
+                <i data-lucide="x" class="w-6 h-6"></i>
+            </button>
+            <h2 class="text-3xl font-cinzel text-yellow-400 mb-6 flex items-center gap-3">
+                <i data-lucide="book-open" class="w-8 h-8"></i>
+                Study Guide Controls
+            </h2>
+            <div class="space-y-4 text-yellow-100 font-crimson">
+                <div class="flex items-center gap-4 p-3 bg-black/40 rounded">
+                    <kbd class="px-3 py-1 bg-gray-700 rounded text-yellow-400 font-cinzel">→</kbd>
+                    <span class="text-lg">Next question</span>
+                </div>
+                <div class="flex items-center gap-4 p-3 bg-black/40 rounded">
+                    <kbd class="px-3 py-1 bg-gray-700 rounded text-yellow-400 font-cinzel">←</kbd>
+                    <span class="text-lg">Previous question</span>
+                </div>
+                <div class="flex items-center gap-4 p-3 bg-black/40 rounded">
+                    <kbd class="px-3 py-1 bg-gray-700 rounded text-yellow-400 font-cinzel">Space</kbd>
+                    <span class="text-lg">Next question</span>
+                </div>
+                <div class="flex items-center gap-4 p-3 bg-black/40 rounded">
+                    <kbd class="px-3 py-1 bg-gray-700 rounded text-yellow-400 font-cinzel">Ctrl</kbd>
+                    <span class="text-lg">+</span>
+                    <kbd class="px-3 py-1 bg-gray-700 rounded text-yellow-400 font-cinzel">P</kbd>
+                    <span class="text-lg">Print study guide</span>
+                </div>
+                <div class="flex items-center gap-4 p-3 bg-black/40 rounded">
+                    <kbd class="px-3 py-1 bg-gray-700 rounded text-yellow-400 font-cinzel">?</kbd>
+                    <span class="text-lg">Show this help</span>
+                </div>
+            </div>
+            <div class="mt-6 pt-4 border-t border-yellow-600/30">
+                <p class="text-purple-300 italic text-center">✨ Good luck on your midterm! ✨</p>
+            </div>
+        </div>
     </div>
 
     <!-- Cursor -->
@@ -151,7 +214,7 @@
     <!-- Print Only Section -->
     <div class="hidden print:block fixed inset-0 bg-white z-[9999] p-12 text-black overflow-y-auto">
         <div class="max-w-4xl mx-auto" id="print-content">
-            <h1 class="text-4xl font-serif font-bold mb-2 text-center">GER 441 Module 3: Study Guide</h1>
+            <h1 class="text-4xl font-serif font-bold mb-2 text-center">GER 441 Module 3: Midterm Study Guide</h1>
             <h2 class="text-2xl font-serif mb-8 text-center text-gray-700">Harry Potter, Fairy Tales, and Gender</h2>
             <div class="w-full h-px bg-black mb-8"></div>
             <div id="print-questions-container" class="space-y-8">
@@ -164,6 +227,8 @@
         Magical link copied!
     </div>
 
+    <!-- Study Data - Load BEFORE main script -->
+    <script src="study-data.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
